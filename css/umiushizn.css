@@ -1,0 +1,40 @@
+div.filename_title {
+	border-bottom: 3px solid #446699;
+	padding: 0px;
+}
+div.filename_title span {
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+        font-family: monospace ;
+	line-height: 10px;
+	position: relative;
+	background: #ccddee;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 10px;
+}
+div.filename_title span:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: -10px;
+	width: 0;
+	height: 0;
+	border-width: 20px 10px 0 0;
+	border-style: solid;
+	border-color: transparent;
+	border-right-color: #ccddee;
+}
+div.filename_title span:after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 0;
+	height: 0;
+	border-width: 0 10px 20px 0;
+	border-style: solid;
+	border-color: transparent;
+	border-bottom-color: #ccddee;
+}
